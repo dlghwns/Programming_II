@@ -1,3 +1,7 @@
+//학번: 202511229
+//이름: 이호준
+//프로그램 명 : ch07-14.c
+//날짜 : 2023-09-26
 #include <stdio.h>
 #define MAX 10
 int exercise0714();
