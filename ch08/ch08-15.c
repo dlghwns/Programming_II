@@ -28,7 +28,7 @@ void copy_array(const int source[], int target[], int size)
 		target[i] = source[i];
 }
 
-void print_array(const int arr[], int size)	// arr는 입력 매개변수
+void print_array(const int arr[], int size)	
 {
 	int i;
 	for (i = 0; i < size; i++)
