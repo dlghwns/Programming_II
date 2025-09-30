@@ -18,33 +18,32 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void get_rect_info(int* pw, int* ph, int *parea)
+void get_rect_info(int w, int h, int *parea, int *pperi)
 {
-	parea = (*pw) * (*ph);
+	*parea = (w) * (h);
+	*pperi = 2 * ((w) + (h));
 }
 
 void solve()
 {
-	int area = 0;
-	int peri 0;
-	int* peri = &peri;
+	int area;
+	int peri;
 
 	int w, h;
-	int* pw = &w;
-	int* ph = &h;
 
 	printf("가로? ");
 	scanf("%d", &w);
 	printf("세로? ");
 	scanf("%d", &h);
 
-	get_rect_info(pw, ph, &area);
+	get_rect_info(w, h, &area, &peri);
 	printf("넓이: %d\n", area);
+	printf("둘레: %d\n", peri);
 }
 
 int main()
 {
-
+	solve();
 
 	return 0;
 }
