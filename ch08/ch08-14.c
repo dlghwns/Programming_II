@@ -5,6 +5,12 @@
 #include <stdio.h>
 void get_sum_product(int x, int y, int* sum, int* product);
 
+
+/*
+ * 함수명 : ex08_14
+ * 기능(책임) : 두 정수의 합과 곱을 구하는 함수를 호출
+ * 반환 : 0
+ */
 int ex08_14(void)
 {
 	int result1, result2;
@@ -14,6 +20,11 @@ int ex08_14(void)
 	return 0;
 }
 
+/*
+ * 함수명 : get_sum_product()
+ * 기능(책임) : 두 정수의 합과 곱을 구해서 포인터로 전달된 변수에 저장
+ * 반환 : 0
+ */
 void get_sum_product(int x, int y, int* sum, int* product)
 {
 	*sum = x + y;

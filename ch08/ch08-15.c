@@ -7,6 +7,12 @@
 void copy_array(const int source[], int target[], int size);
 void print_array(const int arr[], int size);
 
+
+/*
+ * 함수명 : ex08_15
+ * 기능(책임) : 배열 복사 함수 copy_array를 작성하고 테스트한다.
+ * 반환 : 0
+ */
 int ex08_15(void)
 {
 	int x[SIZE] = { 10, 20, 30, 40, 50 };
@@ -21,13 +27,22 @@ int ex08_15(void)
 	return 0;
 }
 
+/*
+ * 함수명 : copy_array()
+ * 기능(책임) : source 배열의 내용을 target 배열로 복사한다.
+ * 반환 : 0
+ */
 void copy_array(const int source[], int target[], int size)
 {
 	int i;
 	for (i = 0; i < size; i++)
 		target[i] = source[i];
 }
-
+/*
+ * 함수명 : print_array()
+ * 기능(책임) : 배열의 내용을 출력함
+ * 반환 : 0
+ */
 void print_array(const int arr[], int size)	
 {
 	int i;

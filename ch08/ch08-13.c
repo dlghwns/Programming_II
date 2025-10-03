@@ -5,6 +5,11 @@
 #include <stdio.h>
 void swap(int* x, int* y);
 
+/*
+ * 함수명 : ex08_13
+ * 기능(책임) : 두 정수의 값을 교환
+ * 반환 : 0
+ */
 int ex08_13(void)
 {
 	int a = 3, b = 7;
@@ -15,6 +20,11 @@ int ex08_13(void)
 	return 0;
 }
 
+/*
+ * 함수명 : temp()
+ * 기능(책임) : 두 정수의 값을 교환(포인터로 입력받음)
+ * 반환 : 0
+ */
 void swap(int* x, int* y)
 {
 	int temp = *x;
