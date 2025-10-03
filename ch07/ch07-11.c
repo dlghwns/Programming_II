@@ -13,6 +13,12 @@ int main()
 	return 0;
 }
 
+
+/*
+* 함수명 : exercise0711
+* 기능(책임) : 선택정렬 알고리즘을 사용하여 배열을 오름차순으로 정렬
+* 반환 : 0
+*/
 int exercise0711()
 {
 	int data[SIZE] = { 7, 3, 9, 5, 1 };

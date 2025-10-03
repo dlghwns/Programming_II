@@ -11,7 +11,11 @@ int main()
 	exercise0707();
 	return 0;
 }
-
+/*
+* 함수명 : exercise0707
+* 기능(책임) : 배열의 복사를 알아봄
+* 반환 : 0
+*/
 int exercise0707()
 {
 	int x[5] = { 10, 20, 30, 40, 50 };

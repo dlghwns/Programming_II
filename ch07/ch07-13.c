@@ -14,6 +14,12 @@ int main()
 	return 0;
 }
 
+
+/*
+* 함수명 : exercise0713
+* 기능(책임) : 2차원 배열을 선언하고 초기화 후 출력
+* 반환 : 0
+*/
 int exercise0713()
 {
 	int data[ROW][COL] = {

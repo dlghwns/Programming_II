@@ -14,6 +14,12 @@ int main()
 	return 0;
 }
 
+
+/*
+* 함수명 : exercise0705
+* 기능(책임) : 두 수를 입력받고 add함수를 통해 더한 값을 저장 후 출력
+* 반환 : 0
+*/
 int exercise0705()
 {
 	int arr[ARR_SIZE] = { 0 };				// 배열 전체를 0으로 초기화
@@ -34,6 +40,11 @@ int exercise0705()
 	return 0;
 }
 
+/*
+* 함수명 : add
+* 기능(책임) : 전달 받은 두 수를 더하여 반환
+* 반환 : 더한 값
+*/
 int add(int a, int b) 						// int형의 매개변수를 갖는 함수
 {
 	return a + b;

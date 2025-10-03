@@ -16,6 +16,12 @@ int main(void)
 	return 0;
 }
 
+/*
+* 함수명 : exercise0701
+* 기능(책임) : 배열의 바이트, 배열의 크기를 출력
+* 반환 : 0
+*/
+
 int exercise0701()
 {
 	int arr[5];									// 크기가 5인 배열 선언

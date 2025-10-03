@@ -15,6 +15,11 @@ int main()
 	return 0;
 }
 
+/*
+* 함수명 : exercise0702
+* 기능(책임) : 배열의 크기를 메크로변수를 사용하여 출력
+* 반환 : 0
+*/
 int exercise0702()
 {
 	int arr[ARR_SIZE];				// 배열의 크기를 매크로 상수로 지정할 수 있다.

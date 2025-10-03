@@ -14,6 +14,12 @@ int main()
 	return 0;
 }
 
+
+/*
+* 함수명 : exercise0712
+* 기능(책임) : 2차원 배열을 선언하고 0부터 1씩 커지는 값을 저장 후 출력
+* 반환 : 0
+*/
 int exercise0712()
 {
 	int data[ROW][COL];

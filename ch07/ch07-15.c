@@ -15,6 +15,12 @@ int main()
 	return 0;
 }
 
+
+/*
+* 함수명 : exercise0715
+* 기능(책임) : 배열을 복사하는 함수를 작성하고 사용
+* 반환 : 0
+*/
 int exercise0715()
 {
 	int x[SIZE] = { 10, 20, 30, 40, 50 };
@@ -29,6 +35,11 @@ int exercise0715()
 	return 0;
 }
 
+/*
+* 함수명 : copy_array
+* 기능(책임) : 배열을 복사하는 함수
+* 반환 : 0
+*/
 void copy_array(int source[], int target[], int size)
 {
 	int i;
@@ -37,7 +48,11 @@ void copy_array(int source[], int target[], int size)
 		target[i] = source[i];			// 배열의 원소를 복사한다.
 	}
 }
-
+/*
+* 함수명 : print_array
+* 기능(책임) : 배열의 원소를 출력하는 함수
+* 반환 : 0
+*/
 void print_array(int arr[], int size)
 {
 	int i;
