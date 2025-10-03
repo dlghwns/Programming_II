@@ -29,6 +29,11 @@ POINT point[] =
 	{3, 5}
 };
 
+/*
+ * 함수명 : swap_point
+ * 기능(책임) : 배열을 정렬해줌. 기준은 point[x].x로 x값을 기준으로 한다.
+ * 반환 : 없음
+ */
 void swap_point(POINT arr[], int size)
 {
 	/*for (int i = 0; i < size; i++)
@@ -57,6 +62,11 @@ void swap_point(POINT arr[], int size)
 	}
 }
 
+/*
+ * 함수명 : solve
+ * 기능(책임) : 배열을 정렬전, 정렬후를 출력해줌
+ * 반환 : 없음
+ */
 void solve()
 {
 	printf("<<정렬 전>>\n");

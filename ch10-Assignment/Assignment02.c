@@ -7,7 +7,7 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <stdlib.h>
+#include <ctype.h>
 
 struct LOGIN
 {
@@ -19,6 +19,12 @@ struct LOGIN
 struct LOGIN user;
 struct LOGIN temp;
 
+
+/*
+ * 함수명 : make_lower()
+ * 기능(책임) : 아이디와 패스워드를 소문자로 변환
+ * 반환 : 없음
+ */
 void make_lower()
 {
 	for (int i = 0; temp.id[i] != NULL; i++)
@@ -31,6 +37,11 @@ void make_lower()
 	}
 }
 
+/*
+ * 함수명 : solve()
+ * 기능(책임) : 아이디와 패스워드를 입력받아 저장하고 출력
+ * 반환 : 없음
+ */
 void solve()
 {
 

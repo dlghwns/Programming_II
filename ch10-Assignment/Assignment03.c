@@ -15,7 +15,11 @@ struct LOGIN
 };
 struct LOGIN user;
 
-
+/*
+ * 함수명 : check()
+ * 기능(책임) : 아이디와 패스워드를 비교하여 로그인 성공/실패 출력
+ * 반환 : 없음
+ */
 void check()
 {
 	if (strcmp(user.id, "guest") == 0 && strcmp(user.password, "idontknow") == 0)
@@ -28,6 +32,11 @@ void check()
 	}
 }
 
+/*
+ * 함수명 : solve()
+ * 기능(책임) : 아이디와 패스워드를 입력받아 저장하고 check() 호출
+ * 반환 : 없음
+ */
 void solve()
 {
 

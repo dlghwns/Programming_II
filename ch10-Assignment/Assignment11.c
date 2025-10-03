@@ -16,7 +16,12 @@ typedef struct PRODUCT
 	int stock;
 }product;
 
-
+/*
+ * 함수명 : solve()
+ * 기능(책임) : 제품을 입력받고 남은 수량과 총 가격을 구해서 출력해줌. 0을 입력하면
+ * 반복문을 종료하여 총 주문 내역을 출력해줌
+ * 반환 : 없음
+ */
 void solve()
 {
 
@@ -47,7 +52,7 @@ void solve()
 
 		if (strcmp(order, "아메리카노") == 0)
 		{
-			num = 0;
+			num = 0;									//노가다 방지로 임시 변수를 활용하여 배열[임시변수]로 값에 접근함.
 		}
 		else if (strcmp(order, "카페라떼") == 0)
 		{

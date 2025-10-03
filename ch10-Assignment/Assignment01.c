@@ -27,6 +27,13 @@ struct LOGIN
 	char password[800];
 };
 
+
+/*
+ * 함수명 : solve()
+ * 기능(책임) : 아이디와 패스워드를 입력받아 저장하고 출력
+ * 패스워드는 글자 수를 구하여 *로 출력
+ * 반환 : 없음
+ */
 void solve()
 {
 	struct LOGIN user;

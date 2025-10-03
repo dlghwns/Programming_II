@@ -15,7 +15,11 @@ struct DATE
 	int d;
 };
 
-
+/*
+ * 함수명 : print_date()
+ * 기능(책임) : 연, 월, 일을 입력받아 DATE 구조체에 저장하고 "연/월/일" 형식으로 출력
+ * 반환 : 없음
+ */
 void print_date()
 {
 	struct DATE date;
