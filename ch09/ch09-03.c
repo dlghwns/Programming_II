@@ -7,6 +7,12 @@
 #include <string.h>
 #define SIZE 32
 
+
+/*
+* 함수명 : ex09_03
+* 기능(책임) : 문자열의 교환
+* 반환 : 0
+*/
 int ex09_03(void) {
 	char str1[SIZE] = "";	// 널 문자열로 초기화한다.
 	char str2[SIZE] = "";	// 널 문자열로 초기화한다.

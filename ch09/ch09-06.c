@@ -6,6 +6,13 @@
 #include <stdio.h>
 #include <string.h>
 
+
+
+/*
+* 함수명 : ex09_06
+* 기능(책임) : 문자열의 검색
+* 반환 : 0
+*/
 int ex09_06(void)
 {
 	char filename[] = "readme.txt";

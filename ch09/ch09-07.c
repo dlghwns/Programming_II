@@ -6,6 +6,12 @@
 #include <stdio.h>
 #include <string.h>
 
+
+/*
+* 함수명 : ex09_07
+* 기능(책임) : 문자열의 토큰 나누기
+* 반환 : 0
+*/
 int ex09_07(void)
 {
 	char phone[] = "02-123-4567";

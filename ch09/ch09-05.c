@@ -6,6 +6,12 @@
 #include <stdio.h>
 #include <string.h>
 
+
+/*
+* 함수명 : ex09_05
+* 기능(책임) : 문자열의 연결
+* 반환 : 0
+*/
 int ex09_05(void)
 {
 	char sentence[100] = "";

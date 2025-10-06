@@ -8,6 +8,12 @@
 #include <ctype.h>  // 문자 처리 라이브러리
 int count_space(const char* s);
 
+
+/*
+* 함수명 : ex09_10
+* 기능(책임) : 공백	문자의 개수 세기
+* 반환 : 0
+*/
 int ex09_10(void)
 {
 	char str[64] = "this program\ttest const pointer to string\n";
@@ -16,7 +22,11 @@ int ex09_10(void)
 	printf("공백 문자의 개수: %d\n", count_space(str));
 	return 0;
 }
-
+/*
+* 함수명 : ount_space
+* 기능(책임) : 문자열 s에서 공백 문자의 개수를 세어 반환한다.
+* 반환 : 공백 문자의 개수
+*/
 int count_space(const char* s) // s는 입력 매개변수
 {
 	int count = 0;

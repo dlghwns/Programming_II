@@ -6,6 +6,12 @@
 #include <stdio.h>
 #include <string.h>
 
+
+/*
+* 함수명 : ex09_08
+* 기능(책임) : 문자열의 입출력
+* 반환 : 0
+*/
 int ex09_08(void)
 {
 	char in_str[128];

@@ -7,6 +7,12 @@
 #include <string.h>					// 문자열 처리 함수 사용 시 포함
 #define SIZE 10
 
+
+/*
+* 함수명 : ex09_04
+* 기능(책임) : 문자열의 비교
+* 반환 : 0
+*/
 int ex09_04(void)
 {
 	char s1[SIZE] = "apple";

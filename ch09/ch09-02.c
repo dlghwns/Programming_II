@@ -6,6 +6,12 @@
 #include <stdio.h>
 #include <string.h>
 
+
+/*
+* 함수명 : ex09_02
+* 기능(책임) :strlen 함수 사용 예
+* 반환 : 0
+*/
 int ex09_02(void)
 {
 	char s1[] = "hello";
