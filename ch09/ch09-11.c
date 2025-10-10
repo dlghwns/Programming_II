@@ -46,3 +46,10 @@ int swap_string(char* lhs, char* rhs, int size)
 	strcpy(rhs, temp);
 	return 1;	// swap_string 성공
 }
+
+
+int main()
+{
+	ex09_11();
+	return 0;
+}

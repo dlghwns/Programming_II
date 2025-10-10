@@ -40,3 +40,9 @@ int count_space(const char* s) // s는 입력 매개변수
 	//strcpy(s, "xyz");	// strcpy의 매개변수와 데이터형이 다르므로 컴파일 경고
 	return count;
 }
+
+int main()
+{
+	ex09_10();
+	return 0;
+}

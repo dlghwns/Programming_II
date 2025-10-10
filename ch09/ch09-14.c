@@ -37,3 +37,11 @@ int ex09_14(void)
 
 	return 0;
 }
+
+
+
+int main()
+{
+	ex09_14();
+	return 0;
+}

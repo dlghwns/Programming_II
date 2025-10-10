@@ -34,3 +34,10 @@ int ex09_01(void)
 
 	return 0;
 }
+
+
+int main()
+{
+	ex09_01();
+	return 0;
+}

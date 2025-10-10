@@ -62,3 +62,11 @@ int swap_string(char* lhs, char* rhs, int size)
 	strcpy(rhs, temp);
 	return 1;		// swap_string ¼º°ø
 }
+
+
+
+int main()
+{
+	ex09_13();
+	return 0;
+}

@@ -25,3 +25,9 @@ int ex09_08(void)
 	puts(out_str);
 	return 0;
 }
+
+int main()
+{
+	ex09_08();
+	return 0;
+}

@@ -29,3 +29,10 @@ int ex09_03(void) {
 	printf("str1 = %s, str2 = %s\n", str1, str2);
 	return 0;
 }
+
+
+int main()
+{
+	ex09_03();
+	return 0;
+}
