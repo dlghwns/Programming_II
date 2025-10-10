@@ -30,3 +30,10 @@ int ex10_05(void)
 
 	return 0;
 }
+
+
+int main()
+{
+	ex10_05();
+	return 0;
+}

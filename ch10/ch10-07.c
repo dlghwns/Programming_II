@@ -27,3 +27,10 @@ int ex10_07(void)
 
 	return 0;
 }
+
+
+int main()
+{
+	ex10_07();
+	return 0;
+}

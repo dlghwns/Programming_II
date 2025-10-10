@@ -36,3 +36,10 @@ double get_length(const LINE* ln)	// 직선의 길이 구하는 함수
 
 	return sqrt(dx * dx + dy * dy);
 }
+
+
+int main()
+{
+	ex10_13();
+	return 0;
+}

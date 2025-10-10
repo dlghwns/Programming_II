@@ -34,3 +34,10 @@ void print_point_2(POINT* pt)		// 포인터에 의한 전달
 {
 	printf("(%d, %d)", pt->x, pt->y);
 }
+
+
+int main()
+{
+	ex10_10();
+	return 0;
+}

@@ -55,3 +55,10 @@ int ex10_06(void)
 
 	return 0;
 }
+
+
+int main()
+{
+	ex10_06();
+	return 0;
+}

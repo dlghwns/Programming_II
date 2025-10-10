@@ -34,3 +34,10 @@ void print_point_1(POINT pt)	// 값에 의한 전달
 {
 	printf("(%d, %d)", pt.x, pt.y);
 }
+
+
+int main()
+{
+	ex10_09();
+	return 0;
+}

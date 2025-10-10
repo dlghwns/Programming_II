@@ -24,3 +24,10 @@ int ex10_16(void)
 
 	return 0;
 }
+
+
+int main()
+{
+	ex10_16();
+	return 0;
+}

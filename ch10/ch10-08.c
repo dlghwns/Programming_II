@@ -64,3 +64,11 @@ int ex10_08(void)
 
 	return 0;
 }
+
+
+int main()
+{
+	ex10_08();
+
+	return 0;
+}

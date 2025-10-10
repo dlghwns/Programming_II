@@ -50,3 +50,11 @@ void set_point(POINT* pt, int x, int y)
 	pt->x = x;		// pt가 가리키는 POINT 변수의 멤버 x를 변경한다.
 	pt->y = y;		// pt가 가리키는 POINT 변수의 멤버 y를 변경한다.
 }
+
+
+
+int main()
+{
+	ex10_11();
+	return 0;
+}

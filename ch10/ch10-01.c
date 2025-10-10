@@ -27,3 +27,11 @@ void test()
 
 	};
 }
+
+
+
+int main()
+{
+	ex10_01();
+	return 0;
+}

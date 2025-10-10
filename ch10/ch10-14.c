@@ -31,3 +31,11 @@ int ex10_14(void)
 	}
 	return 0;
 }
+
+
+
+int main()
+{
+	ex10_14();
+	return 0;
+}

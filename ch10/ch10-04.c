@@ -26,3 +26,10 @@ int ex10_04(void)
 		printf("ct1과 ct2의 값이 같지 않습니다.");
 	return 0;
 }
+
+
+int main()
+{
+	ex10_04();
+	return 0;
+}

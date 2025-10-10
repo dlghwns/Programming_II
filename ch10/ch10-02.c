@@ -43,3 +43,9 @@ int ex10_02(void)
 
 	return 0;
 }
+
+int main()
+{
+	ex10_02();
+	return 0;
+}
