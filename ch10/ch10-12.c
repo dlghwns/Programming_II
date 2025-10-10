@@ -1,3 +1,7 @@
+//학번: 202511229
+//이름: 이호준
+//프로그램 명 : ch10-12.c
+//날짜 : 2025-10-06
 #include <stdio.h>
 
 typedef struct data {

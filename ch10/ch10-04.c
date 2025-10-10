@@ -1,3 +1,8 @@
+
+//학번: 202511229
+//이름: 이호준
+//프로그램 명 : ch10-04.c
+//날짜 : 2025-10-06
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
