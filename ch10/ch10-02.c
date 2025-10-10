@@ -12,6 +12,11 @@ struct contact		// 연락처
 	int ringtone;	// 벨 소리(0~9 선택)
 };
 
+/*
+* 함수명 : ex10_02
+* 기능(책임) : 구조체를 만들어 출력
+* 반환 : 0
+*/
 int ex10_02(void)
 {
 	struct contact ct = { "김석진", "01011112222", 0 };

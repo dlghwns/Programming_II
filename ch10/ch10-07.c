@@ -14,7 +14,11 @@ typedef struct contact	// 연락처
 	char phone[STR_SIZE];
 	int ringtone;
 } CONTACT;
-
+/*
+* 함수명 : ex10_07
+* 기능(책임) : 구조체포인터로 접근
+* 반환 : 0
+*/
 int ex10_07(void)
 {
 	CONTACT ct = { "김석진", "01011112222", 0 };

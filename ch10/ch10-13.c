@@ -17,6 +17,12 @@ typedef struct line// 직선
 
 double get_length(const LINE* ln);
 
+
+/*
+* 함수명 : ex10_13
+* 기능(책임) : 구조체 정의 및 사용
+* 반환 : 0
+*/
 int ex10_13(void)
 {
 	LINE ln1 = { {10, 20}, {30, 40} };
@@ -28,7 +34,11 @@ int ex10_13(void)
 
 	return 0;
 }
-
+/*
+* 함수명 : get_length
+* 기능(책임) : 직선의 길이를 구해줌
+* 반환 : 직선의 길이
+*/
 double get_length(const LINE* ln)	// 직선의 길이 구하는 함수
 {
 	int dx = ln->end.x - ln->start.x;

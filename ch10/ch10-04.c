@@ -14,6 +14,11 @@ struct contact		// 연락처
 	int ringtone;	// 벨 소리(0~9 선택)
 };
 
+/*
+* 함수명 : ex10_04
+* 기능(책임) : 구조체의 값을 비교
+* 반환 : 0
+*/
 int ex10_04(void)
 {
 	struct contact ct1 = { "전정국", "01012345678", 1 };

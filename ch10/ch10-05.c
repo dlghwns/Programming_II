@@ -12,6 +12,11 @@ typedef struct contact		// 연락처
 	int ringtone;
 } CONTACT;
 
+/*
+* 함수명 : ex10_05
+* 기능(책임) : 구조체를 출력
+* 반환 : 0
+*/
 int ex10_05(void)
 {
 	CONTACT arr[] = {	// 배열의 크기를 생략할 수 있다.

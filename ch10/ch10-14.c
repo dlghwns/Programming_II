@@ -7,6 +7,13 @@
 
 enum direction { NORTH, SOUTH, EAST, WEST };
 
+
+
+/*
+* 함수명 : ex10_14
+* 기능(책임) : 열거체의 switch사용
+* 반환 : 0
+*/
 int ex10_14(void)
 {
 	enum direction d1 = NORTH;		// 열거체 변수 선언

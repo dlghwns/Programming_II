@@ -11,6 +11,12 @@ typedef union color_t {
 	// rgb[3]은 not used
 } COLOR_T;
 
+
+/*
+* 함수명 : ex10_16
+* 기능(책임) : 공용체로 rgb값 표현
+* 반환 : 0
+*/
 int ex10_16(void)
 {
 	COLOR_T c1;

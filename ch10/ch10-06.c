@@ -15,6 +15,12 @@ typedef struct contact
 	int ringtone;
 } CONTACT;
 
+
+/*
+* 함수명 : ex10_01
+* 기능(책임) : 구조체를 초기화하고 검색기능을 추가
+* 반환 : 0
+*/
 int ex10_06(void)
 {
 	CONTACT arr[] = {		// 초기화된 배열

@@ -12,6 +12,12 @@ struct contact		// 연락처
 	int ringtone;	// 벨 소리(0~9 선택)
 };
 
+
+/*
+* 함수명 : ex10_01
+* 기능(책임) : 구조체 크기를 출력
+* 반환 : 0
+*/
 int ex10_01(void)
 {
 	printf("contact 구조체의 크기 = %d\n", sizeof(struct contact));

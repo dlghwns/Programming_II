@@ -15,6 +15,12 @@ typedef struct point
 void print_point_3(const POINT* pt);
 void set_point(POINT* pt, int x, int y);
 
+
+/*
+* 함수명 : ex10_11
+* 기능(책임) : 랜덤값을 구조체를 이용하여 출력및 저장
+* 반환 : 0
+*/
 int ex10_11(void)
 {
 	POINT arr[5] = { 0 };
@@ -38,12 +44,24 @@ int ex10_11(void)
 	return 0;
 }
 
+
+/*
+* 함수명 : print_point_3
+* 기능(책임) : 전달받은 값을 출력해줌
+* 반환 : 0
+*/
 // 점의 좌표를 출력하는 함수 (pt는 입력 매개변수)
 void print_point_3(const POINT* pt)		// 포인터에 의한 전달
 {
 	printf("(%d, %d)", pt->x, pt->y);
 }
 
+
+/*
+* 함수명 : set_point
+* 기능(책임) : 전달받은 값을 변경
+* 반환 : 0
+*/
 // 점의 좌표를 변경하는 함수 (pt는 출력 매개변수)
 void set_point(POINT* pt, int x, int y)
 {

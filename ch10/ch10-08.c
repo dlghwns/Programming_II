@@ -15,6 +15,12 @@ typedef struct contact
 	int ringtone;
 } CONTACT;
 
+
+/*
+* 함수명 : ex10_08
+* 기능(책임) : 구조체 포인터의 활용
+* 반환 : 0
+*/
 int ex10_08(void)
 {
 	CONTACT arr[] = {	// 초기화된 배열

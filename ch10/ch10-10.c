@@ -12,6 +12,11 @@ typedef struct point
 
 void print_point_2(POINT* pt);
 
+/*
+* 함수명 : ex10_10
+* 기능(책임) : 구조체주소전달방법
+* 반환 : 0
+*/
 int ex10_10(void)
 {
 	POINT arr[] = {
@@ -30,6 +35,11 @@ int ex10_10(void)
 	return 0;
 }
 
+/*
+* 함수명 : print_point_2
+* 기능(책임) : 전달받은 값을 출력
+* 반환 : 0
+*/
 void print_point_2(POINT* pt)		// 포인터에 의한 전달
 {
 	printf("(%d, %d)", pt->x, pt->y);

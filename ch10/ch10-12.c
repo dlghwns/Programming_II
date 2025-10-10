@@ -11,6 +11,11 @@ typedef struct data {
 	//unsigned short the_day_of_week : 3;
 } DATE;
 
+/*
+* 함수명 : ex10_12
+* 기능(책임) : 비트필드사용법
+* 반환 : 0
+*/
 int ex10_12(void)
 {
 	DATE dday;
